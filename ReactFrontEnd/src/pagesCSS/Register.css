@@ -1,0 +1,57 @@
+.registerContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.registerForm {
+  background-color: white;
+  /* width: 1000px; */
+  gap: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginAlternative {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.registerInput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.input {
+  outline: none;
+  width: 200px;
+  padding: 0px 10px;
+}
+.button {
+  width: 100px;
+  border: none;
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.button:hover {
+  background-color: rgb(65, 65, 255);
+}
+/* .registerContainer__inputForm {
+  display: flex;
+  width: 300px;
+  gap: 10px;
+  flex-direction: column;
+} */

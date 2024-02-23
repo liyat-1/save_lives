@@ -1,0 +1,11 @@
+.post__container {
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 200px;
+  align-items: flex-start;
+
+  border-radius: 30px;
+  padding: 10px;
+}

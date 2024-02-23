@@ -1,0 +1,217 @@
+.w-100 {
+  height: 100vh;
+}
+.services .card-body i {
+  font-size: 50px !important;
+}
+
+.team .card-body i {
+  font-size: 20px !important;
+  font-weight: 1500 !important;
+}
+.portfolio .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+.team .card {
+  box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.img-fluid {
+  border-radius: 11px;
+}
+.card-1 {
+  background-color: rgba(15, 42, 59, 0.829) !important;
+}
+
+.footer {
+  background-color: rgb(13, 45, 66) !important;
+}
+.btn100 {
+  margin-top: 20px;
+  width: 200px !important;
+}
+.navbar-brand:hover {
+  color: lime !important;
+}
+.me:hover {
+  color: lime !important;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+  .carousel-caption p {
+    width: 100%;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .img-area img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption {
+    font-size: 17px;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+  .carousel-caption p {
+    position: relative !important;
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12;
+    color: #fff !important;
+    z-index: 4 !important;
+  }
+  .about-text {
+    padding-top: 50px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+}
+
+#hero {
+  width: 100%;
+  height: 50vh;
+  background-image: url(../pages/images/w.png);
+  background-size: contain;
+  background-attachment: fixed;
+}
+#about h1 {
+  text-align: center;
+  margin-top: 100px;
+  color: rgba(3, 3, 3, 0.678);
+  margin-bottom: 30px;
+}
+#about p {
+  text-align: center;
+  padding: 0px 70px;
+}
+/* footer */
+footer {
+  color: #fff;
+  background-color: rgb(19, 18, 18);
+  margin-top: 60px;
+}
+.container__footer {
+  margin: 50px;
+}
+#footer-links {
+  margin-top: 40px;
+}
+#footer-links #footer__linkList .footer__links {
+  list-style: none;
+  margin: 20px;
+}
+#footer-links #footer__linkList .footer__links a {
+  text-decoration: none;
+  color: #fff;
+}
+#footer-links #footer__linkList .footer__links a:hover {
+  color: gold;
+  transition: 0.5s;
+}
+#footer-contact {
+  margin-top: 40px;
+}
+#footer-contact #footer__contact .contact__list:hover {
+  color: gold;
+  transition: 0.5s;
+}
+#footer-contact #footer__contact .contact__list {
+  list-style: none;
+  margin: 20px;
+}
+#footer-image-name {
+  display: flex;
+  justify-content: center;
+}
+#footer-image-name #footer__logo__header1 {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 400;
+}
+#footer-image-name #footer__logo__image {
+  margin-top: 40px;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+#footer-socials #footer__socials__header2 {
+  margin: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+#footer-socials #footer__socials__list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#footer-socials #footer__socials__list .footer__social__links {
+  list-style: none;
+  margin-right: 20px;
+  text-align: center;
+}
+#footer-socials #footer__socials__list .footer__social__links .instagram:hover {
+  color: #80ff2c;
+  transition: 0.5s;
+}
+#footer-socials #footer__socials__list .footer__social__links .facebook:hover {
+  color: #80ff2c;
+  transition: 0.5s;
+}
+#footer-socials #footer__socials__list .footer__social__links .twitter:hover {
+  color: #80ff2c;
+  transition: 0.5s;
+}
+#footer-socials #footer__socials__list .footer__social__links .linkedin:hover {
+  color: #80ff2c;
+  transition: 0.5s;
+}
+#footer-socials #footer__socials__list .footer__social__links a {
+  margin-top: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer .footer__text {
+  text-align: center;
+  background-color: darkgrey;
+  color: black;
+  margin: 0px;
+}
+.icon {
+  font-size: 300px;
+  font-weight: 500;
+}
+.container__flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+  #footer-image-name #footer__logo__header1 {
+    margin-top: 20px;
+    font-size: 40px;
+  }
+  #footer-image-name #footer__logo__image {
+    margin-top: 20px;
+    width: 80px;
+    height: 80px;
+  }
+  #footer-socials {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+.blog__header {
+  text-align-last: center;
+  font-size: 60px;
+  margin: 20px;
+}
+
+.blog__form {
+  display: flex;
+  background-color: red;
+  flex-direction: column;
+  width: 500px;
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+.form__input {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+}
+
+#comment {
+  padding: 10px;
+  font-size: 20px;
+}
+
+#username {
+  padding: 5px;
+  font-size: 20px;
+}
+
+#comment:focus {
+  outline: none;
+}
+
+#username:focus {
+  outline: none;
+}
+
+#form__btn {
+  width: 50px;
+  color: red;
+  background-color: red;
+}

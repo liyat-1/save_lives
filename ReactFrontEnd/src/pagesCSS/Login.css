@@ -1,0 +1,41 @@
+.loginContainer {
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.loginContainer__form {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  align-items: center;
+}
+
+.loginContainer__form__label {
+  display: block;
+  font-size: 25px;
+  width: 100%;
+}
+
+.loginContainer__form__input {
+  display: block;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.loginContainer__form__input:focus {
+  outline: none;
+}
+
+.loginContainer__form__button {
+  width: 100px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.notify-err {
+  color: red;
+  font-size: 30px;
+}
